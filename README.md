@@ -39,7 +39,7 @@
  *클래스를 만들었을때 보통 main클래스를 따로 만들어서 사용함
  
 ## 2. 생성자를 사용하는 이유
-- 문제(1)
+- 문제(1)-Calculator
 ```
 Calculator클래스를 만들고 plus,minus,multiple,divide 4개의 메소드를 만들어보세요
 각 메소드 기능은 + - * /이고 파라메터는 int a, int b 를 받습니다.
@@ -48,7 +48,7 @@ CalculatorMain 클래스에서 실행 해보세요.
 실행은 CalculatorMain에서 합니다.
 ```
 
- - 문제(2)
+ - 문제(2)-Calculator2
  ```
 위 Calculator(1)의 예제를 생성자를 사용해 작성하시오.
 ```
@@ -56,7 +56,7 @@ CalculatorMain 클래스에서 실행 해보세요.
 - 생성자를 작성하는 이유: 같은 변수가 반복적으로 들어가는 경우에 생성자를 작성하게 되면 한번만 작성해도 되기 때문이다.
 
 ## 3. RandomCalculator 만들기
-- 문제(1)
+- 문제(1)-RandomCalculator
 ```
 RandomCalculator를 만들어 보세요
 메소드: plus, minus, multiple, divide
@@ -66,7 +66,7 @@ randomNumber는 0~9사이의 정수
 divide의 경우 0으로 나누면 Error가 납니다. <-에러처리하기
 랜덤한 숫자가 0으로 생성이 되면 “랜덤하게 생성된 숫자가 0입니다.”를 출력하기
 ```
-- 문제(2) 
+- 문제(2)-Calculator3
 ```
 randomNumber생성하는 로직은 interface를 이용해 DI하기
 ![](https://velog.velcdn.com/images/lyj1023/post/23f2799d-d3be-459c-a4ea-95cccc1c2d88/image.PNG)
@@ -89,7 +89,7 @@ randomNumber생성하는 로직은 interface를 이용해 DI하기
 - verctor는 현재 잘 사용하지 않는다.
 
 ## 2. List
-- 문제(1)
+- 문제(1)-ListPractice
 ```
 사람 이름이 들어있는 list를 return 하는 method 만들기
 ```
